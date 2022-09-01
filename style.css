@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(38, 38, 38);
+}
+
+a {
+    font-size:1cm;
+    text-decoration: none;
+    color: burlywood;
+}
+a:hover {
+    /* font-size: 1.2cm; */
+    color: rgb(255, 217, 167);
+    text-decoration: underline;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: burlywood;
+    width: 100%;
+    background-color: rgb(51, 44, 40);
+    place-items: center;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.rubrik {
+    font-size: 1.5cm;
+    width: 100%;
+    text-decoration: underline;
+}
+
+img {
+    width: 40%;
+    height: fit-content;
+    margin: 2%;
+    border-radius: 1.5cm;
+    box-shadow: 0 0 40px black;
+}
