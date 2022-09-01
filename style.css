@@ -34,10 +34,13 @@ a:hover {
 }
 
 .images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: 2fr auto;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    gap: 50px;
+    padding: 1%;
 }
 
 .rubrik {
@@ -47,9 +50,8 @@ a:hover {
 }
 
 img {
-    width: 40%;
-    height: min-content;
-    margin: 2%;
+    align-self: center;
+    width: 100%;
     border-radius: 1.5cm;
     box-shadow: 0 0 40px black;
 }
