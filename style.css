@@ -48,7 +48,7 @@ a:hover {
 
 img {
     width: 40%;
-    height: fit-content;
+    height: min-content;
     margin: 2%;
     border-radius: 1.5cm;
     box-shadow: 0 0 40px black;
